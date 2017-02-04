@@ -1,6 +1,14 @@
-<b>How to use this app.</b>
+<h2>How to use this app</h2>
 
-Default config
+<b>Explanation</b>
+  - Example Set yearStart = 2016
+  - Example Set separator = "-"
+  - Example Set date client = 2017
+  - if date client ERORR, will shown the (yearStart). Output: 2016
+  - if yearStart == date client, will shown the (yearStart). Output: 2016
+  - if yearStart < date client, will shown the (yearStart + separator + date client). Output: 2016 - 2017
+
+<b>Default config</b>
   - config already has default value inside the apps but you can still edit whatever you want.
   - default value:
       
@@ -15,12 +23,12 @@ Default config
     
 <pre>
 dateYear.setConfig({
-  yearStart: 2015, //Set whatever year u want, Number or String
-  separator: "~" //Set what ever u want, example using 2016 ~ 2017
+  yearStart: 2015,
+  separator: "~"
 });
 </pre>
       
-How to run the app
+<b>How to run the app</b>
   - after u already set the config or not, u can use this app.
   - how to use:
   
