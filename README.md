@@ -34,12 +34,12 @@ dateYear.run();
 <b>Example Using</b>
 
 <pre>
-<span id="date"></span>
+&lt;span id="date"&gt;&lt;/span&gt;
 
-<script src="dateYear.js" type="type/javascript"></script>
-<script>
+&lt;script src="dateYear.js" type="type/javascript"&gt;&lt;/script&gt;
+&lt;script&gt;
   document.getElementById("date").innerHTML = dateYear.setConfig({
     yearStart: 2015
   }).run();
-</script>
+&lt;/script&gt;
 </pre>
